@@ -7,13 +7,13 @@ What can we see?
 - 1 is always at the ends of the row; 
 - The 2nd element is the row number. I. e. the number is exactly the same as the row position (5);
 - The numbers are perfectly mirrored from the centre.
-- The length of the row is n + 1, in this case, 5 + 1, which gives us 6.
-We can identify the same properties every other row:
+- The length of the row is n + 1, in this case, 5 + 1, which gives us 6.  
+We can identify the same properties in every other row:
 `1, 2, 1` - 2nd row
 - it starts with 1;
 - 2nd element is 2;
 - The number is mirrored from the centre (2) giving us 1 on the end too;
-- 2 + 1 = 3. 3 is the length of the row.
+- 2 + 1 = 3. 3 is the length of the row.  
 `1, 9, 36, 84, 126, 126, 84, 36, 9, 1` - 9th row
 and the rest.
 
@@ -38,7 +38,7 @@ Therefore, the algorithm follows the method below:
 ## State of the algorithm
 I just developed it on my spare time, and it could very well be a worse variation compared to the rest out there, but I see that this algorithm works and gets the job done, so maybe checking it out might not be a bad idea.
 ## Space-time complexity
-**DISCLAIMER!**
+**DISCLAIMER!**  
 The data might very well be wrong, so feel free to inform me about the issues and an explanation would be appreciated :)
 
 Time: O(n)
