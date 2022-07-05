@@ -1,5 +1,5 @@
 # My-pascal-traingle-algorithm
-##Description of the algortihm
+## Description of the algortihm
 **[Considering that the tip of the Pascal's triangle (`1`) is the 0th row]**
 Take any row of the pascal's triangle, let's say 5. The row looks like the following:
 `1, 5, 10, 10 5 1`
@@ -35,9 +35,9 @@ Therefore, the algorithm follows the method below:
 8. Make another variable, which will contain the same elements as `past_line` but in reverse.
 9. Append the variable to `past_line`.
 10. Done.
-##State of the algorithm
+## State of the algorithm
 I just developed it on my spare time, and it could very well be a worse variation compared to the rest out there, but I see that this algorithm works and gets the job done, so maybe checking it out might not be a bad idea.
-##Space-time complexity
+## Space-time complexity
 **DISCLAIMER!**
 The data might very well be wrong, so feel free to inform me about the issues and an explanation would be appreciated :)
 
