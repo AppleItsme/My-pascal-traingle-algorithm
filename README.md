@@ -1,13 +1,14 @@
 # My-pascal-traingle-algorithm
 ## Description of the algortihm
 **[Considering that the tip of the Pascal's triangle (`1`) is the 0th row]**
-Take any row of the pascal's triangle, let's say 5. The row looks like the following:
+Take any row of the pascal's triangle, let's say 5. The row looks like the following:  
 `1, 5, 10, 10 5 1`
 What can we see? 
 - 1 is always at the ends of the row; 
 - The 2nd element is the row number. I. e. the number is exactly the same as the row position (5);
 - The numbers are perfectly mirrored from the centre.
 - The length of the row is n + 1, in this case, 5 + 1, which gives us 6.  
+
 We can identify the same properties in every other row:
 `1, 2, 1` - 2nd row
 - it starts with 1;
