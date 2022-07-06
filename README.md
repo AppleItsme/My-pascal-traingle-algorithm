@@ -42,5 +42,5 @@ I just developed it on my spare time, and it could very well be a worse variatio
 **DISCLAIMER!**  
 The data might very well be wrong, so feel free to inform me about the issues and an explanation would be appreciated :)
 
-Time: O(n)
+Time: O(n^2)
 Space: O(2n) 
